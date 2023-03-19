@@ -42,7 +42,7 @@
 
 <main>
   <h2>HTTP Request Toggle Options</h2>
-  <h4>v 0.0.1</h4>
+  <h4>v0.1.0</h4>
 
   <label for="activeRequest">Active Request</label>
   <textarea
