@@ -38,7 +38,7 @@ const toggle = (tab: Tab) => {
           setState(active);
         })
         .catch((error) => {
-          console.error("Request error: ", error);
+          console.debug("Request error: ", error);
           setState(false);
         });
     }
