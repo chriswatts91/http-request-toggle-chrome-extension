@@ -3,7 +3,7 @@ import { defineManifest } from "@crxjs/vite-plugin";
 export default defineManifest({
   name: "HTTP Request Toggle",
   description: "",
-  version: "0.1.0",
+  version: "0.1.1",
   manifest_version: 3,
   icons: {
     "16": "img/play-16.png",

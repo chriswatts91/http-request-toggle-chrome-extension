@@ -1,6 +1,6 @@
 {
   "name": "http-request-toggle-chrome-extension",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "author": "Christopher Watts",
   "description": "Chrome extension to toggle HTTP requests on and off",
   "type": "module",
