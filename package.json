@@ -1,0 +1,35 @@
+{
+  "name": "http-request-toggle-chrome-extension",
+  "version": "0.0.1",
+  "author": "Christopher Watts",
+  "description": "Chrome extension to toggle HTTP requests on and off",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "graphql",
+    "toggle"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prettier": "prettier --write '**/*.{svelte,ts,json,css,scss,md}'"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.12",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.49",
+    "@types/chrome": "^0.0.193",
+    "path": "^0.12.7",
+    "prettier": "^2.7.1",
+    "prettier-plugin-svelte": "^2.7.0",
+    "svelte": "^3.44.0",
+    "svelte-preprocess": "^4.9.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.13"
+  }
+}
