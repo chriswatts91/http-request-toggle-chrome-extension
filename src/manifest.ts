@@ -19,7 +19,7 @@ export default defineManifest({
   action: {},
   commands: {
     "toggle-http-request": {
-      suggested_key: "Ctrl+Shift+Y",
+      suggested_key: "Ctrl+Shift+Z",
       description: "Toggle HTTP request",
     },
   },
