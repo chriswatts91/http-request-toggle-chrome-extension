@@ -28,8 +28,6 @@ const toggle = (tab: Tab) => {
       console.debug("Sending request: ", request);
       fetch(`${origin}/graphql`, {
         method: "POST",
-        mode: "no-cors",
-        referrerPolicy: "origin",
         body: request,
         headers: {
           "Content-Type": "application/json",
